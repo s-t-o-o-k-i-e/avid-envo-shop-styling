@@ -1,0 +1,292 @@
+/*?BY: JOSHUA*/
+/*todo MATCHING CURRENT AVID THEME*/
+button.minus, button.plus{
+	position:relative
+}
+button.minus:hover, button.plus:hover{
+	background: black!important;
+	color: #ffdd22!important;
+}
+/*SINGLE PRODUCT PAGE SAME BORDER RADIUS ON ARCHIVE PAGE */
+.woocommerce div.product form.cart .variations select, .woocommerce div.product form.cart .button{
+	border-radius: 10px;
+}
+button.minus{
+	border-bottom-left-radius: 10px!important;
+	border-top-left-radius: 10px!important;
+}
+button.plus{
+	border-bottom-right-radius: 10px!important;
+	border-top-right-radius: 10px!important;
+}
+.woocommerce ul.products li.product .button{
+	background : #f5d100;
+}
+.woocommerce ul.products li.product .button:hover{
+	background : #fdf593;
+}
+/*PRODUCT PAGE TABS*/
+.wc-tabs li.active a{
+	background: black!important;
+}
+/*! MATCHING CURRENT AVID THEME*/
+/*todo HIDES RANDOM GAP ON HEADER*/
+.adsbygoogle-noablate{
+	height:0px !important;
+}
+/*! HIDES RANDOM GAP ON HEADER*/
+/*todo PRODUCT CONTAINER ALIGNMENT*/
+.woocommerce-loop-product__title, .woocommerce ul.products li.product .price{
+	-webkit-box-orient: vertical !important;
+	overflow: hidden !important;
+    line-height: 1!important;
+}
+.woocommerce-loop-product__title{
+	min-height: 3.7em !important;
+	padding-bottom: 0 !important;
+	font-size: 15.5px !important;
+	float:none !important;
+    text-wrap:balance;
+}
+.attachment-woocommerce_thumbnail{
+	width: auto !important;
+	height: 163px !important;
+	object-fit: contain !important;
+	display: block !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	margin-bottom: 0!important;
+}
+span.price{
+	min-height: 3.2em !important;
+	margin-bottom: 0 !important;
+}
+.installation-price-empty{
+	padding-bottom: 39.38px !important;
+}
+@media only screen and (max-width: 1207px) {
+	.woocommerce ul.products li.product .button{
+		display: -webkit-box !important;
+		-webkit-line-clamp: 2 !important;
+		-webkit-box-orient: vertical !important;
+		overflow: hidden !important;
+		min-height: 2.9em !important;
+	}
+	.installation-price-empty{
+		height: 58.56px !important;
+		padding: 0!important;
+	}
+	.installation-price{
+		display: -webkit-box !important;
+		-webkit-line-clamp: 3 !important;
+		-webkit-box-orient: vertical !important;
+		overflow: hidden !important;
+		min-height: 3.2em !important;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.envo_shop_pro_preview, .woocommerce ul.products li.product a.compare{
+		padding: 2px!important;
+		white-space: nowrap;
+		opacity: 0.75!important;
+		border-radius:5px!important;
+		width: 100px!important;
+	}
+	.envo_shop_pro_preview{
+		position:absolute;
+		display:block;
+		left:0;
+		right:0;
+		margin:auto;
+	}
+	
+	.envo_shop_pro_preview:hover, .woocommerce ul.products li.product a.compare:hover{
+	opacity: 1!important;
+	}
+	/*YITH Compare center to product container and appear on hover*/
+	.product-compare-wishlist{
+		position: absolute;
+		margin:auto;
+		left:0;
+		right:0;
+		bottom:190px;
+	}
+	.woocommerce ul.products li.product a.compare{
+		display:none;
+		color:white!important;
+		background-color:black!important;
+		position: absolute;
+		margin:auto;
+		left:0;
+		right:0;
+		border:black solid 1px!important;
+	}
+	.woocommerce ul.products li.product:hover a.compare{
+		display:block;
+	}
+	.woocommerce ul.products li.product a.compare .la-sync::before{
+		color:white;
+	}
+	/*! REDUCE DEAD SPACE*/
+	
+	.woocommerce ul.products li.product .button{
+	font-size: 14px!important;
+	border:black solid 1px!important;
+	letter-spacing: 0px!important;
+	line-height: 1!important;
+	padding-top: 2px!important;
+	padding-bottom: 2px!important;
+	position:absolute!important;
+	width:100px;
+	left:0!important;
+	right:0!important;
+	margin:auto!important;
+	bottom:130px;
+	display:none!important;
+	border-radius:5px!important;
+	border-color:#f5d100!important;
+	}
+	
+	.woocommerce ul.products li.product:hover .button{
+		display:block!important;
+	}
+	
+	li.product:hover .attachment-woocommerce_thumbnail{
+		transform: scale(1.1);
+		transition: transform .2s;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.installation-price-empty{
+		padding: 0!important;
+		height: 32px !important;
+	}
+	.attachment-woocommerce_thumbnail{
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.woocommerce-loop-product__title{
+		float:none !important;
+	}
+	
+li.product .envo_shop_pro_preview {
+    visibility: visible;
+    opacity: 1;
+		position: absolute;
+    top: 150px;
+    width: 93%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 0;
+		border-radius:10px;
+}
+}
+/*! PRODUCT CONTAINER ALIGNMENT END*/
+/*todo AV SURFER PAGE SPECIFIC STYLING*/
+body.page-id-24797 .custom-logo {
+    content: url('https://avid.com.ph/wp-content/uploads/2023/11/AVSURFER-PNG-scaled.webp') !important;
+    display: block!important;
+	height: 98px;
+}
+body.page-id-24797 .site-header.container-fluid, body.page-id-24797 .navbar-header{
+	background: 
+#fecb10;
+}
+body.page-id-24797 i.la {
+	color: black !important;
+}
+body.page-id-24797 .header-compare{
+	background: transparent !important;
+}
+body.page-id-24797 .header-search-button{
+	background-color:black !important;
+}
+body.page-id-24797 .la-search:before{
+color: white !important;
+}
+body.page-id-24797 .cart-contents span.count,body.page-id-24797 .amount-cart{
+background: black;
+	color: white;
+}
+body.page-id-24797 .amount-cart:before{
+	border-right: 7px solid black;
+}
+body.page-id-24797 .header-search-form{
+	border-color: black;
+}
+body.page-id-24797 .woocommerce ul.products li.product .button{
+	border-color: transparent;
+}
+body.page-id-24797 .woocommerce ul.products li.product .button:hover{
+	border-color: black;
+}
+body.page-id-24797 #main-menu-panel span{
+	background: black!important;
+}
+/*! AV SURFER PAGE SPECIFIC STYLING*/
+/*todo SONY CENTRE PAGE SPECIFIC STYLING*/
+body.page-id-24912 .custom-logo {
+    content: url('https://avid.com.ph/wp-content/uploads/2023/11/SONYCENTRE-by-AVID-white-blackbg.webp') !important;
+    display: block!important;
+	height: 98px;
+}
+body.page-id-24912 .site-header.container-fluid, body.page-id-24912 .navbar-header{
+	background: 
+#000000;
+}
+body.page-id-24912 .navbar-header i.la, body.page-id-24912 .header-right i.la {
+	color: white !important;
+}
+body.page-id-24912 .header-compare{
+	background: transparent !important;
+}
+body.page-id-24912 .header-search-button{
+	background-color:#dcdddd !important;
+}
+body.page-id-24912 .la-search:before{
+color: black !important;
+}
+body.page-id-24912 .cart-contents span.count,body.page-id-24912 .amount-cart{
+background: white;
+	color:black;
+}
+body.page-id-24912 .amount-cart:before{
+	border-right: 7px solid white;
+}
+body.page-id-24912 .header-search-form{
+	border-color: white;
+}
+body.page-id-24912 .woocommerce ul.products li.product .button{
+	background: black;
+	color: white;
+	border-color:black!important;
+}
+body.page-id-24912 .woocommerce ul.products li.product .button:hover{
+	background: #dcdddd;
+	color: black;
+}
+body.page-id-24912 #main-menu-panel span{
+	background: white!important;
+}
+body.page-id-24912 a.tag.tag-grouped{
+	background:black;
+	color:white!important;
+}
+/*! SONY CENTRE PAGE SPECIFIC STYLING*/
+/*todo AV AND SC HEADER LOGO RETURN HOME*/
+body.page-id-24797 .custom-logo:hover, body.page-id-24912 .custom-logo:hover {
+    content: "Back to Home" !important;
+    display: block!important;
+	height: 98px;
+}
+/*! AV AND SC HEADER LOGO RETURN HOME*/
+/*todo BRAND LOGO HIDING ON SONY PAGE*/
+body.page-id-24912 .brand-logos{
+	visibility: hidden!important;
+}
+/*todo PREVENT RIGHT SHADOW BORDER OVERLAP OF RIGHT PRODUCT CONTAINER*/
+.woocommerce ul.products li.product:hover, .woocommerce-page ul.products li.product:hover{
+	z-index:1;
+}

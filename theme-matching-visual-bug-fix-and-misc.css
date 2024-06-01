@@ -1,0 +1,36 @@
+/*todo MATCHING CURRENT AVID THEME*/
+button.minus, button.plus{
+	position:relative
+}
+button.minus:hover, button.plus:hover{
+	background: black!important;
+	color: #ffdd22!important;
+}
+/*SINGLE PRODUCT PAGE SAME BORDER RADIUS ON ARCHIVE PAGE */
+.woocommerce div.product form.cart .variations select, .woocommerce div.product form.cart .button{
+	border-radius: 10px;
+}
+button.minus{
+	border-bottom-left-radius: 10px!important;
+	border-top-left-radius: 10px!important;
+}
+button.plus{
+	border-bottom-right-radius: 10px!important;
+	border-top-right-radius: 10px!important;
+}
+.woocommerce ul.products li.product .button{
+	background : #f5d100;
+}
+.woocommerce ul.products li.product .button:hover{
+	background : #fdf593;
+}
+/*PRODUCT PAGE TABS*/
+.wc-tabs li.active a{
+	background: black!important;
+}
+/*! MATCHING CURRENT AVID THEME*/
+/*todo HIDES RANDOM GAP ON HEADER*/
+.adsbygoogle-noablate{
+	height:0px !important;
+}
+/*! HIDES RANDOM GAP ON HEADER*/

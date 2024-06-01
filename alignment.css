@@ -1,0 +1,149 @@
+/*todo PRODUCT CONTAINER ALIGNMENT*/
+.woocommerce-loop-product__title, .woocommerce ul.products li.product .price{
+	-webkit-box-orient: vertical !important;
+	overflow: hidden !important;
+    line-height: 1!important;
+}
+.woocommerce-loop-product__title{
+	min-height: 3.7em !important;
+	padding-bottom: 0 !important;
+	font-size: 15.5px !important;
+	float:none !important;
+    text-wrap:balance;
+}
+.attachment-woocommerce_thumbnail{
+	width: auto !important;
+	height: 163px !important;
+	object-fit: contain !important;
+	display: block !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	margin-bottom: 0!important;
+}
+span.price{
+	min-height: 3.2em !important;
+	margin-bottom: 0 !important;
+}
+.installation-price-empty{
+	padding-bottom: 39.38px !important;
+}
+@media only screen and (max-width: 1207px) {
+	.woocommerce ul.products li.product .button{
+		display: -webkit-box !important;
+		-webkit-line-clamp: 2 !important;
+		-webkit-box-orient: vertical !important;
+		overflow: hidden !important;
+		min-height: 2.9em !important;
+	}
+	.installation-price-empty{
+		height: 58.56px !important;
+		padding: 0!important;
+	}
+	.installation-price{
+		display: -webkit-box !important;
+		-webkit-line-clamp: 3 !important;
+		-webkit-box-orient: vertical !important;
+		overflow: hidden !important;
+		min-height: 3.2em !important;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.envo_shop_pro_preview, .woocommerce ul.products li.product a.compare{
+		padding: 2px!important;
+		white-space: nowrap;
+		opacity: 0.75!important;
+		border-radius:5px!important;
+		width: 100px!important;
+	}
+	.envo_shop_pro_preview{
+		position:absolute;
+		display:block;
+		left:0;
+		right:0;
+		margin:auto;
+	}
+	
+	.envo_shop_pro_preview:hover, .woocommerce ul.products li.product a.compare:hover{
+	opacity: 1!important;
+	}
+	/*YITH Compare center to product container and appear on hover*/
+	.product-compare-wishlist{
+		position: absolute;
+		margin:auto;
+		left:0;
+		right:0;
+		bottom:190px;
+	}
+	.woocommerce ul.products li.product a.compare{
+		display:none;
+		color:white!important;
+		background-color:black!important;
+		position: absolute;
+		margin:auto;
+		left:0;
+		right:0;
+		border:black solid 1px!important;
+	}
+	.woocommerce ul.products li.product:hover a.compare{
+		display:block;
+	}
+	.woocommerce ul.products li.product a.compare .la-sync::before{
+		color:white;
+	}
+	/*! REDUCE DEAD SPACE*/
+	
+	.woocommerce ul.products li.product .button{
+	font-size: 14px!important;
+	border:black solid 1px!important;
+	letter-spacing: 0px!important;
+	line-height: 1!important;
+	padding-top: 2px!important;
+	padding-bottom: 2px!important;
+	position:absolute!important;
+	width:100px;
+	left:0!important;
+	right:0!important;
+	margin:auto!important;
+	bottom:130px;
+	display:none!important;
+	border-radius:5px!important;
+	border-color:#f5d100!important;
+	}
+	
+	.woocommerce ul.products li.product:hover .button{
+		display:block!important;
+	}
+	
+	li.product:hover .attachment-woocommerce_thumbnail{
+		transform: scale(1.1);
+		transition: transform .2s;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.installation-price-empty{
+		padding: 0!important;
+		height: 32px !important;
+	}
+	.attachment-woocommerce_thumbnail{
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.woocommerce-loop-product__title{
+		float:none !important;
+	}
+	
+li.product .envo_shop_pro_preview {
+    visibility: visible;
+    opacity: 1;
+		position: absolute;
+    top: 150px;
+    width: 93%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 0;
+		border-radius:10px;
+}
+}
+/*! PRODUCT CONTAINER ALIGNMENT END*/
