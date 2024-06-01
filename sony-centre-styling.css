@@ -1,0 +1,49 @@
+/*todo SONY CENTRE PAGE SPECIFIC STYLING*/
+body.page-id-24912 .custom-logo {
+    content: url('https://avid.com.ph/wp-content/uploads/2023/11/SONYCENTRE-by-AVID-white-blackbg.webp') !important;
+    display: block!important;
+	height: 98px;
+}
+body.page-id-24912 .site-header.container-fluid, body.page-id-24912 .navbar-header{
+	background: 
+#000000;
+}
+body.page-id-24912 .navbar-header i.la, body.page-id-24912 .header-right i.la {
+	color: white !important;
+}
+body.page-id-24912 .header-compare{
+	background: transparent !important;
+}
+body.page-id-24912 .header-search-button{
+	background-color:#dcdddd !important;
+}
+body.page-id-24912 .la-search:before{
+color: black !important;
+}
+body.page-id-24912 .cart-contents span.count,body.page-id-24912 .amount-cart{
+background: white;
+	color:black;
+}
+body.page-id-24912 .amount-cart:before{
+	border-right: 7px solid white;
+}
+body.page-id-24912 .header-search-form{
+	border-color: white;
+}
+body.page-id-24912 .woocommerce ul.products li.product .button{
+	background: black;
+	color: white;
+	border-color:black!important;
+}
+body.page-id-24912 .woocommerce ul.products li.product .button:hover{
+	background: #dcdddd;
+	color: black;
+}
+body.page-id-24912 #main-menu-panel span{
+	background: white!important;
+}
+body.page-id-24912 a.tag.tag-grouped{
+	background:black;
+	color:white!important;
+}
+/*! SONY CENTRE PAGE SPECIFIC STYLING*/

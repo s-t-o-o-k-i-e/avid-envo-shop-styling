@@ -1,0 +1,42 @@
+/*todo AV SURFER PAGE SPECIFIC STYLING*/
+body.page-id-24797 .custom-logo {
+    content: url('https://avid.com.ph/wp-content/uploads/2023/11/AVSURFER-PNG-scaled.webp') !important;
+    display: block!important;
+	height: 98px;
+}
+body.page-id-24797 .site-header.container-fluid, body.page-id-24797 .navbar-header{
+	background: 
+#fecb10;
+}
+body.page-id-24797 i.la {
+	color: black !important;
+}
+body.page-id-24797 .header-compare{
+	background: transparent !important;
+}
+body.page-id-24797 .header-search-button{
+	background-color:black !important;
+}
+body.page-id-24797 .la-search:before{
+color: white !important;
+}
+body.page-id-24797 .cart-contents span.count,body.page-id-24797 .amount-cart{
+background: black;
+	color: white;
+}
+body.page-id-24797 .amount-cart:before{
+	border-right: 7px solid black;
+}
+body.page-id-24797 .header-search-form{
+	border-color: black;
+}
+body.page-id-24797 .woocommerce ul.products li.product .button{
+	border-color: transparent;
+}
+body.page-id-24797 .woocommerce ul.products li.product .button:hover{
+	border-color: black;
+}
+body.page-id-24797 #main-menu-panel span{
+	background: black!important;
+}
+/*! AV SURFER PAGE SPECIFIC STYLING*/
