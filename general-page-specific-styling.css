@@ -1,0 +1,15 @@
+/*todo AV AND SC HEADER LOGO RETURN HOME*/
+body.page-id-24797 .custom-logo:hover, body.page-id-24912 .custom-logo:hover {
+    content: "Back to Home" !important;
+    display: block!important;
+	height: 98px;
+}
+/*! AV AND SC HEADER LOGO RETURN HOME*/
+/*todo BRAND LOGO HIDING ON SONY PAGE*/
+body.page-id-24912 .brand-logos{
+	visibility: hidden!important;
+}
+/*todo PREVENT RIGHT SHADOW BORDER OVERLAP OF RIGHT PRODUCT CONTAINER*/
+.woocommerce ul.products li.product:hover, .woocommerce-page ul.products li.product:hover{
+	z-index:1;
+}
